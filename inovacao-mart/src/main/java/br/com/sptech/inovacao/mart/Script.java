@@ -1,11 +1,11 @@
 
-package br.com.sptech.inovacao;
+package br.com.sptech.inovacao.mart;
 
 import java.io.IOException;
 
 public class Script {
     
-    public void executeCommands() throws IOException, InterruptedException {
+    public void executeCommands() throws InterruptedException, IOException {
 
         String script = 
                 "echo \\Reiniciando o computador!\\ \n"
